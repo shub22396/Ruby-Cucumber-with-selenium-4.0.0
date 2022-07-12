@@ -1,0 +1,13 @@
+server: "hub.lambdatest.com"
+user: "<YOUR LAMBDATEST USERNAME>"
+key: "<YOUR LAMBDATEST KEY>"
+
+common_caps:
+  "build": "capybara-lambdatest"
+  "name": "single-Test"
+
+browser_caps:
+  -
+    "browser": "chrome"
+    "version": "latest"
+    "platform": "Windows 7"
